@@ -53,6 +53,8 @@ picture {
 body {
     font-family: var(--ff-sans-normal);
     font-size: var(--ff-sans-normal);
+    color: hsl(var(--clr-white));
+    background-color: hsl( var(--clr-dark) );
     line-height: 1.5;
     min-height: 100vh;
 }
