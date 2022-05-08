@@ -100,6 +100,13 @@ select {
     gap: var(--gap, 1rem);
 }
 
+/* ou .flow > *:where(:not(:first-child))  */
+/* qui peut aussi secrire .flow > * + *  */
+.flow > *:not(:first-child) {
+    margin-top: 1rem;
+    outline: 1px solid red;
+}
+
 .container {
     /* left and right only */
     padding: 0 2em;
